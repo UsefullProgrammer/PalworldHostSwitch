@@ -7,12 +7,21 @@ your own labels for player GUIDs, and making a separate copy of a world.
 
 Requires:
 
+palworld-save-tools==0.24.0
+pyooz
 
 main_without_pyqty6.py: Python 3.10+ 
 python main_legacy.py: Python 3.10+ and PyQt6: Is legacy edition, not use it i not update was nice graphic but not very necessary
 
 
 ```powershell
+windows:
+winget install Python.Python.3.11
+pip install -r requirements.txt
+python PalworldHostSwitch.py
+linux:
+sudo apt update && sudo apt install python3 python3-pip
+pip3 install -r requirements.txt
 python PalworldHostSwitch.py
 ```
 Get Folder savegame by host and rename with -2 or (1) example 5DCCEC12441C00319DF7B2BD522272CE in 5DCCEC12441C00319DF7B2BD522272CE(1)
