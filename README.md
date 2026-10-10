@@ -1,7 +1,8 @@
 # Palworld Save Browser
 
-Small PyQt6 desktop utility for browsing local Palworld save folders, keeping
+Small desktop utility for browsing local Palworld save folders, keeping
 your own labels for player GUIDs, and making a separate copy of a world.
+
 
 ## Run
 
